@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router'
 import './style/Header.css'
 import Logo from '../assets/logo.webp'
 import Relogio from './Relogio'
