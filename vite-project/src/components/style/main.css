@@ -1,0 +1,16 @@
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+}
+
+section{
+    padding: 10px;
+}
+
+.container{
+    
+}
