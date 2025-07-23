@@ -10,6 +10,7 @@ import Header from './components/Header'
 import Main from './components/Main'
 import Footer from './components/Footer'
 import Globais from './components/Globais'
+import ListaCarros from './components/listaCarros'
 
 function App() {
     function somar(n1,n2){
@@ -59,6 +60,8 @@ function App() {
         <input type="text" name="resumo" id="resumo"  value={resumo} onChange={(e)=>setResumo(e.target.value)}/>
         <button onClick={gravarResumo}>Gravar</button>
         <button onClick={verResumo}>Ver</button>
+
+        <ListaCarros/>
       </Main>
       <Footer/>
     </>
